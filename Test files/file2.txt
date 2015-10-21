@@ -1,0 +1,126 @@
+General Gameplay Changes
+Half of the mineral patches have 1500 (same as HotS), and the other half have 750.
+Vespene Geysers’ max Vespene reduced from 2500 to 1700.
+Starting worker count increased from 6 to 12 for all races.
+All races have had the supply contribution of their town hall structures increased.
+Command Center: Increased from 11 to 15 supply
+Hatchery: Increased from 2 to 6 supply
+Nexus: Increased from 10 to 14 supply
+Unit “Scan Range”
+Increased for ground units from “5” to a unit’s “Weapon Range + 0.5”.
+Increases for ground units with upgrades that increase Weapon Range.
+Game speed altered to match that of real time.
+Tooltips now match game timer at all speeds.
+Racial Changes
+Terran
+New Unit: Cyclone
+A ranged Factory unit that can attack both air and ground units and use the Lock On ability.
+Ability – Lock On: Locks onto a target, drastically increasing range and rate of fire for 14 seconds.
+Marauder
+Increased the number of attacks from 1 to 2, halved damage and bonus damage.
+Siege Tank
+Can now be picked up and dropped while in Siege Mode.
+Banshee
+New Upgrade- Hyperflight Rotors: Increases Banshee’s movement speed by 1.0.
+Battlecruiser
+New Ability - Tactical Jump: After 4 seconds, warp to any target location. Battlecruiser is invulnerable while it is warping.
+Raven
+Point Defense Drone duration decreased from 180 seconds to 20 seconds.
+Durable Materials now increases PDD duration by 10 seconds.
+Missile Turret
+Requirement changed from Engineering Bay to Barracks.
+Thor
+High Impact Payload removed.
+Zerg
+New Unit: Ravager
+A morph off of the Roach which has increased stats and can use Corrosive Bile.
+Ability – Corrosive Bile: Corrosive Bile is a mortar-style area of effect skill-shot which impacts after a short delay once fired. The impact strikes both air and ground units, destroying any Force Fields it comes in contact with.
+New Unit: Lurker
+Tier 2 siege unit that can perform a line-based area of effect ground attack while burrowed.
+Morphs off of the Hydralisk, and requires a Lurker Den.
+Roach
+Tunneling Claws has been removed. Roaches can now always move while burrowed.
+Burrow move speed increased on Creep after Glial Reconstitution is researched.
+Hydralisk
+Added morph to Lurker.
+Grooved Spines removed, +1 range added to Muscular Augments.
+Corruptor
+New Ability – Caustic Spray: Channeled ability that initially deals 5 damage per second to any building. Damage is increased to 25 damage per second after 6 seconds.
+Removed Corruption Ability.
+Swarm Host
+Cost modified from 200 Minerals and 100 Vespene to 100 Minerals and 200 Vespene.
+Supply cost increased from 3 to 4.
+Movement speed increased from 2.25 to 2.95.
+Swarm Hosts now require the Burrow research in order to burrow.
+Swarm Hosts no longer collide with Locusts.
+Spawn Locusts
+Auto-cast removed, Spawn Locusts must now be manually cast.
+Spawn Locusts cooldown increased from 25 seconds to 60 seconds.
+Casting Spawn Locusts no longer requires a Swarm Host to be burrowed.
+Locusts
+Weapon speed increased from .8 to .6.
+Locust duration increased from 15 seconds (+10 seconds with Enduring Locusts) to 30 seconds.
+Adrenal Glands
+Attack speed bonus increased from 18.6% to 40%.
+Infestation Pit
+Enduring Locusts – This upgrade has been removed.
+New upgrade: Flying Locusts - Allows Locusts spawned by Swarm Hosts to fly. Flying Locusts can use Swoop.
+Requires Lair.
+Cost is 200 Minerals, 200 Vespene, 160 seconds.
+Swoop: Orders the Locust to land at the targeted location, allowing it to attack.
+Nydus Worm
+Invulnerable while constructing.
+Viper
+New ability - Parasitic Bomb: Latch onto an air unit, dealing 90 damage over 7 seconds to that unit and any air units around it. Effect persists for the remaining duration if the target is destroyed.
+Ultralisk
+Chitinous Plating: Bonus armor increased from +2 to +4.
+Protoss
+New Unit: Adept
+A slow-moving harassment unit from the Gateway that can use Psionic Transfer.
+Ability – Psionic Transfer: Projects an invulnerable Psionic Image that can move but not attack. After 7 seconds, the Adept teleports to the image’s location.
+New Unit: Disruptor
+A light-mechanical unit from the Robotics Facility that can use Purification Nova.
+Ability – Purification Nova: Once activated, the Disruptor becomes invulnerable and gains increased movement speed. After 4 seconds, the Disruptor emits a massive blast dealing AoE damage in a circle and immediately becomes vulnerable again, also losing its speed boost.
+Mothership (Core)
+Time Warp maximum radius increased from 3.5 to 8. The Time Warp will now appear small at first and grow over time, and will not slow units until reaching maximum size.
+Warp Prism
+Pick up range has been greatly increased to 7.
+Immortal
+Removed Hardened Shield Ability.
+New Ability – Barrier: Immortal gains a 100 damage shield for 3 seconds.
+Colossus
+Base damage reduced by 20%.
+Oracle
+Removed Envision.
+Revelation now tags cloaked and burrowed units, revealing them for 60 seconds. Cost reduced from 75 to 50 energy.
+New Ability – Stasis Ward: Constructs a cloaked trap on target location. When triggered, enemy units in proximity are trapped in stasis for 30 seconds.
+Tempest
+Removed damage bonus against massive units.
+New Ability – Disintegration: Deals 500 damage over 80 seconds to target unit.
+Carrier
+Build time reduced from 120 seconds to 90 seconds.
+New Ability – Release Interceptors: Launches Interceptors to fight at target area for 60 seconds.
+Balance Update
+
+On April 15, Blizzard released a Balance Update.
+
+Protoss
+Adept
+Health changed from 80/60 to 90/90.
+Upgrade changed to a health upgrade instead of providing bounce damage.
+Upgrade now adds 50 shields to Adepts.
+Adept can cancel the shade ability at any time. When you cancel, the shade disappears and you don’t teleport.
+Immortal
+Immortal barrier ability now absorbs 200 (up from 100).
+Tempest
+Disintegration ability damage increased to 550
+Units under the effect of Disintegration can’t regenerate, heal, or repair health.
+Terran
+Cyclone
+Lock-on range down from 15 to 12.
+Range upgrade now increases lock-on range up to 15.
+Zerg
+Lurker
+Starts off with 9 range.
+Range upgrade has been removed.
+Attack is more responsive right after it finishes burrowing.

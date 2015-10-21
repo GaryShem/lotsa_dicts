@@ -1,0 +1,196 @@
+General
+“Whispers of Oblivion” now available
+Three new campaign missions that were previously only available in the Legacy of the Void Beta are now available to all players.
+To play these missions, click on Campaign and select Legacy of the Void > Prologue.
+These missions focus on Zeratul and serve to bridge the story between Heart of the Swarm and Legacy of the Void.
+You can now purchase any of the three StarCraft II expansions in each of their respective in-game menus on the Campaign screen. This includes the ability to pre-purchase Legacy of the Void.
+As a reminder, each expansion can now be purchased as a standalone product; you do not need to own previous installments in order to play subsequent ones.
+A 64-bit version of StarCraft II is now available. To use the 64-bit client, navigate to Settings > Game Settings > StarCraft II in the Battle.net App.
+StarCraft II installations have now been migrated from the old MPQ file format to the new CASC file format. For more information on CASC, see this blog post.
+User Interface
+The entire StarCraft II user interface has been completely revamped.
+All major navigation has been moved to the top of the screen, including the Party Panel and Profile.
+Custom Games have been moved under Multiplayer.
+Archon Mode is now available in Custom Games on official Blizzard-authored maps.
+In order for map makers to add Archon Mode support to non-Blizzard maps, simply open and re-save the map in the Patch 3.0 Editor in order to pick up the new Archon Mode variants, and then republish the map to Battle.net.
+The WCS 2.2 Observer Interface now shows the first four letters of each players’ names for each Archon team.
+Unit selection circles have been updated to better show which players are controlling which units when observing team and Archon Mode games.
+Archon Matchmaking and the Archon Ranked Ladder (including Archon Grandmaster League) will become available for Legacy of the Void players upon its release.
+The Search Panel/Countdown Timer has been moved from the top middle of the screen to the bottom left.
+The Chat system has been completely redesigned.
+Chat is now one persistent window in the bottom-right corner.
+Players are now automatically joined into General Chat upon logging in.
+Chat channels are now split into expandable/collapsible groupings on the right side of the Chat panel.
+The chat window can be expanded in height and pinned so that it stays on the screen even when out of focus.
+The maximum number of players in a chat channel has been increased from 100 to 200. Players who have been inactive for a set period of time will be removed from public chat channels.
+Additional chat display and filtering options have been added to the Options Menu under Options > Social > Chat and Options > Social > Chat Channels.
+You can now join chat channels by typing ‘/join [channelname]’. If a public channel or group channel exists, you’ll join that channel. Otherwise, you’ll join a custom chat channel.
+Many other ‘slash commands’ have been added, type /help for a list of primary commands.
+A full list of the new commands can be found in our blog.
+Brand new 3D scenes have been added to the background of every UI screen.
+Two new 3D backgrounds – Artanis and Space Clouds – have been added to the Home Screen. These can be accessed in Options > Graphics > Background Model.
+The Campaign screen has been redesigned with new 3D models to represent each chapter of the StarCraft II storyline.
+Challenges can now be found under Wings of Liberty.
+Friends List
+Your BattleTag is now shown on the top of your Friends List.
+Players Near You has been moved from the Home Screen into the Friends List.
+Recent party members are now displayed on the top of the Friends List.
+The Add Friend dialogue has been simplified.
+General performance of the Friends List has been improved.
+The Arcade has been redesigned.
+Players will be automatically joined into a public Arcade chat channel when entering the Arcade section.
+The Arcade experience is now organized around Join and Browse.
+In Join, Open Games is now the default viewing mode, showing all active lobbies.
+You can now link directly to a game lobby you are in by typing ‘[Lobby]’ into chat. Players who click on the link will be joined directly into the game lobby.
+Top Played games can be found in the Browse section.
+Learn more about the changes in our blog.
+Starter Edition
+Starter Edition players can now reach the maximum level for each race and earn their respective rewards.
+Archon Mode is available for play in Custom Games on official Blizzard-authored maps.
+All four 3D backgrounds on the Home Screen are available for use.
+1vAI matchmaking is now available at all expansion levels rather than just with Heart of the Swarm.
+Multiplayer Loading Screens have been refreshed with updated art.
+Player levels have been removed.
+Portrait borders have been removed except in 1v1 matches.
+Wings of Liberty players can now earn experience and participate in the Leveling system (previously this was exclusive to Heart of the Swarm).
+FFA matchmaking has been removed, but is still available in Custom Games.
+As a result of this change, the FFA Gladiator, FFA Destroyer, and X Wins: FFA series achievements have been hidden unless already earned, and their associated achievement points have been removed.
+The “Competitive Zen Master” achievement has been updated to reflect the above removals.
+See the reasoning behind these changes here.
+Options Menu Changes
+The following Gameplay options have been removed and are now permanently enabled:
+Display World Object Tooltips
+Display Game Tooltips
+Display Hotkeys on Command Card
+Enable Starting Worker Rally
+Game Timer
+In multiplayer games, the game timer now shows real time instead of scaling the time based on game speed.
+Options > Gameplay > Display Build Grid is now enabled by default.
+In Options > Graphics:
+Background Model has been moved under Display.
+Texture Quality has been moved under Graphics and the Textures dropdown has been removed.
+A new tab has been added: Observer and Replay.
+The Voice tab has been renamed to Voice Chat.
+Replays
+All replays are now saved automatically, and the “Save All Replays” option has been removed from the Options Menu.
+The file size of each replay is now displayed in the Replays screen.
+The in-game “Load Saved Game” dialogue now defaults to the Recent tab.
+As a reminder, replays created prior to Patch 3.0 will no longer be viewable, but replays that are newly created in Patch 3.0 and onwards will continue to be supported in future versions of the game. See this blog post for more details.
+Gameplay
+The worker count text will now turn red if your vespene gas worker saturation is higher than recommended.
+Slight adjustments have been made to flier separation when moving in groups so that flier units do not rapidly lose their velocity when attacking while moving.
+If you issue a new attack command when Carrier Interceptors are already deployed, they will now engage the new target instead of returning back to the Carrier first.
+Possible enemy locations will now pulse on the minimap for 10 seconds at the beginning of every game.
+Pressing Alt + <number> creates a new control group and removes units from other control groups. This works in all team games, including Archon games.
+StarCraft II Editors
+General
+Map and mod merging functionality
+Configure a three-way file merge using File > Merge Files.
+Specify optional programs for diffing and merging text files within File > Preferences > External Tools.
+Map > Map Loading Screen
+Custom Layout property added for specifying custom UI layout as defined in the UI Module.
+Loading Music property added for custom music.
+Lighting Window
+Ambient Environment Map property added to Global tab. This must specify a cubemap texture.
+Ambient Environment Multiplier property added to Global tab. This works in combination with an environment map texture.
+Regions tab support for copying settings between regions.
+File > Preferences > General > Check Spelling Within Text Edit Controls.
+This causes text edit controls which modify game text to underline unrecognized words.
+Terrain Module
+Multiple map texture sets
+Multiple texture sets may be added to a map within Map > Map Texture Sets.
+Each terrain chunk (8x8 area) may use only one of the map texture sets. Use the new Texture Sets brush in the Terrain layer to assign sets to chunks.
+Within the Texture brush, choose which set to apply. Textures may only be applied to chunks which use the active set.
+Mutually exclusive map tags (Map > Map Tags)
+Map tags may enable a new option: Load Only One Tag In Game, along with a Load Chance. Only one tag using this flag will be randomly selected during game loading, and objects using the other tags will not be loaded.
+View > Show Tags > Cycle Exclusive Tags
+May be used to toggle editor visibility between each tag using this new option.
+Vision brush added to the Terrain layer for painting vision blocking state directly on the map.
+View > Show Vision settings for previewing vision state (AKA fog of war) based on all placed objects.
+Fill operations added to Painted Pathing, Creep, and Vision brushes.
+Fill operations may specify what state to Fill Within. Options include cliff level, texture, region, pathing, creep, and vision.
+Edit > Paste Position Symmetrical
+Use in conjunction with map symmetry and Copy Position. This will move the selected object to the nearest point which is symmetrical to the copied position.
+Data > Rotate Objects
+Opens a dialog for rotating a group of objects about an arbitrary point.
+Sound Emitter points
+Sound Actor property added for using an actor instead of a direct sound link.
+Height property added for adjusting the height at which the sound plays.
+Data > Export Map Image
+Quadrant setting added for optionally choosing one corner of the map.
+Near Clip and Far Clip settings added for adjusting camera clip distances.
+View > Show Terrain > Show Base Height
+Draws a colored plane at the map's Base Height value, defined within Map > Map Options.
+View > Show Terrain > Show Active Brush Overlay Only
+When applying pathing, creep, or vision brushes, this causes the overlay to only display the current operation.
+Render > Show Selection Highlight
+Draws highlight effect around selected objects, in addition to the selection circle.
+Trigger Module
+Data > View Usage
+Opens a window for viewing all locations where the selected elements are being used.
+Double click an item in this window to jump to its location in the Trigger Module.
+Dialogs for choosing elements include a Source menu, which can be used to filter the list based on where the element is defined.
+Inline option added to function definitions. If the function consists of exactly one action, this causes usage of the function to generate that action directly in the script.
+Generated scripts for libraries within mods will now include a separate header file with declarations only.
+Data Module
+Data Wizards
+Wizard files define custom UI templates for creation and modification of any game data.
+Wizard files should be created externally as XML files.
+For complete documentation, see Wizards > Wizard Help in the Data Module.
+View > Show Data Hints Viewer
+Opens a persistent window for displaying any hint text associated with the currently selected fields within Table View or XML View.
+Sound preview UI will appear in the lower right when selecting Sounds, Sound Actors, Soundtracks, and Reverb Effects.
+Properties dialog may now be used to modify multiple objects at once, for the following properties: Parent, Editor Prefix/Suffix, and categories.
+Edit > Copy Data Reference
+When Table View is active, this copies the selected field as a data reference tag suitable for pasting into game display text, such as tooltips.
+Data > Modify Value (Relative)
+When Table View is active, this opens a value dialog which will change numerical values relative to their current value.
+Use the Relative Modification menu in the lower left to select an operation: Add, Subtract, Multiply, or Divide.
+Sync Points tab added to properties dialog for sound assets. This defines time-based points associated with the sound for synchronization.
+Mix Routing field added to Game UI Data, for defining the hierarchy of sound categories.
+Bug Fixes
+General
+Fixed an issue where players were unable to start a new game if they were disconnected while watching a replay.
+Autosaves should no longer fail and kick a player back to the main menu.
+Players earning the “Frugal Fighter” achievement should now be properly awarded the achievement once they’ve completed its requirements.
+Fixed a performance issue relating to CPU thread balancing on newer CPUs that lessened performance over time.
+“The Reckoning” mission should now display the correct stat value for “Largest Zerg Force”.
+Cameras in Relative Camera Mode (used in Custom Games) should now remain in the correct state even through a save/load transition.
+User Interface
+Fixed an issue where players would receive a ‘You have been disconnected from the game’ message when quitting out of a custom game lobby.
+Bookmarked games should now appear normally and not become stuck while trying to load.
+Games completed in less than 3 minutes and 30 seconds should now correctly display “No experience earned”.
+Players who restart their clients via changing their graphics will no longer remain in game lobbies.
+Creating a lobby on a recently republished map should no longer cause an error.
+Fixed a matchmaking issue where team games could start with an uneven number of players on each team.
+Resolved an issue where players with "Only allow friends to send invites" enabled did not receive Group and Clan invites from Battle Tag and Real-ID friends.
+Resolved an issue where players would be able to click ‘join’ for a private group or clan.
+Group and Clan icons should now dynamically update when removing a custom icon.
+Clan names should now be displayed next to character names in General Chat.
+Players should now be able to search for Real ID Clan or Group members by their displayed Real ID name.
+You should no longer be able to mistakenly watch a replay alone by double-clicking on it while in a party.
+Players simultaneously leaving a lobby while partied should no longer cause a disconnection for one player.
+Resolved a performance issue that caused a slight stall when opening up the Friends List while in a game.
+Chatting with an offline player will no longer return a “null” automatic reply.
+Gameplay
+General
+Mining vespene gas from geysers of different orientations and locations should now be more consistent.
+Adding units to a control group while others are in a transport unit should no longer result in units being incorrectly removed from the control group.
+Hotkeys should now properly become disabled when typing into an edit dialog box.
+Winning a game of StarJeweled against an AI opponent should now properly display a Victory screen.
+Terran
+Siege Tank splash damage should now be properly applied to surrounding units when attacking a lowered supply depot.
+A Widow Mine’s explosion animation will now be properly displayed if it hits an Interceptor that docks with a Carrier just before impact.
+Marines with the Mercenary skin should now display the correct ragdoll death animation.
+Zerg
+Locusts should be better at acquiring targets when becoming clumped up in choke points.
+Protoss
+Fixed an issue where several missiles attacks would follow units that had just teleported via Mass Recall.
+Fixed an issue where an enemy’s base location could be revealed when beam attacks are used against a Mothership Core as it’s casting Mass Recall.
+Pylons with the Judicator Pylon Skin should now display the correct death animation whenever they are destroyed while warping-in.
+Habitation Station LE should now correctly display the warp-in range of Pylons regardless of where the Pylon is placed.
+Editor
+Sound files generated by the Cutscene Editor’s Record Video feature should now correctly match the original audio file’s properties.
+Mac
+Fixed a crash that would sometimes occur when resizing the Terrain Editor window.
+You can now open maps by dragging and dropping directly into an open Editor window.

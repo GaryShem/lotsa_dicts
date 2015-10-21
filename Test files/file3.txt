@@ -1,0 +1,122 @@
+General
+Free Arcade and More
+The entirety of the Arcade, along with all of the maps, mods, and games found within, has been made accessible to all StarCraft II: Starter Edition players for free.
+All Custom Games are now available to Starter Edition players.
+All three races have been unlocked for Starter Edition players.
+More information can be found in our Free Arcade blog. You can also check out our Free Arcade and Art Tools videos.
+New Extension Mods Feature
+Mod developers can now create Extension Mods, which consist of parameter sets that can be published to Battle.net for use with any StarCraft II melee map.
+Players can apply any Extension Mod to any melee map from the Custom Games list.
+To create a game using an Extension Mod, enter the Custom Games list, hit the “Browse Maps” button, select any map, and then click “Create with Mod” to choose an Extension Mod from the list.
+The “Top Played Games” section of the Custom Games list now displays the most popular melee map and Extension Mod combinations.
+For more information, please see our Patch 2.1 Preview: Extension Mods blog post.
+Extension Mod Samples
+Three pre-made Extension Mods have already been published to Battle.net so that players and developers alike can quickly get familiar with this new feature.
+All Units Explode – Every unit explodes upon death, damaging all surrounding units.
+Big Game Hunters – All Mineral Patch and Vespene Geyser resource counts are dramatically increased.
+Wandering Minerals – Mineral Patches randomly wander the map, much like neutral critters.
+More Levels and New Rewards
+The level cap for each race has been increased from 30 to 35.
+Added three new race-specific “StarCrafts”-themed decals that can be unlocked at level 32.
+Added three new race-specific “StarCrafts”-themed portraits that can be unlocked at level 35.
+Have a look at the new rewards and get all the leveling details in our Patch 2.1 Preview: More Levels and New Rewards blog post.
+First Win of the Day XP Bonus Increased
+The bonus received for the “First Win of the Day” with each race has been increased from 25,000 to 100,000 experience points.
+Classic StarCraft Soundtrack
+The original StarCraft and StarCraft: Brood War soundtracks have been re-mastered and made available for play in StarCraft II.
+Open the Options menu (F10), navigate to the Sound tab, and then locate the “Soundtrack” option to select which soundtrack from the dropdown list will play in-game.
+More details can be found in our Patch 2.1 Preview: Classic StarCraft Soundtrack in StarCraft II blog post.
+New Loading Screen Tips
+Two new tips have been added that will display on both Wings of Liberty and Heart of the Swarm loading screens.
+Three new tips have been added that will display exclusively on Heart of the Swarm loading screens.
+Battle.net
+Clan and Group Improvements
+Create Events
+A new Events tab has been added to Clan and Group windows.
+Clan and Group owners and officers can now create and schedule events for their clan or group.
+To schedule an event, navigate to the Clan or Group’s Events tab and then click Create Event in the lower left corner.
+All upcoming events will be displayed chronologically within the  Events tab and up to five events will also be displayed in the Events section of the StarCraft II home screen.
+Group Icons
+Clan and Group owners and officers can now upload a custom image for use as a an icon by navigating to the clan or group’s Info tab and then clicking Edit Info.
+Group Icons will display in the top left corner of clan and group windows and also appear in group finder search results.
+Clan Decals
+Clan owners and officers can now upload a custom image for use as a clan decal.
+Clan Decals will display above clan members’ town hall structures in-game.
+For more detailed instructions, as well as Group Icon and Clan Decal image requirements, please see our Patch 2.1 Preview: Clan and Group Improvements blog post.
+Inactive Players Removed from Public Game Lobbies
+After a period of inactivity in a public game lobby, players who remain unresponsive will receive notification that they will soon be automatically removed from that lobby.
+If a lobby host is removed this way, another player from the lobby will be automatically promoted to host.
+Editor
+General
+The Game Attributes dialog now supports changing the list order of attributes and values.
+The Game Attributes dialog now shows all possible players within a mod.
+The Always Use Latest Version dependency option is now available for all dependencies, regardless of author. Please keep in mind that using this option means any unexpected changes to the mod could change or break map functionality.
+Added preference for obfuscating script files when publishing locked files (within File > Preferences > Battle.net.) Please note that this does not obfuscate custom script code.
+The Default Map preference for testing mods can now be any map file, and is chosen using a file browser (within File > Preferences > Test Document.)
+Map Image Export dialog now includes buttons for copying game or editor view settings into custom settings
+Trigger Module
+Added setting for automatically loading trigger libraries defined within mods without requiring the map to reference it. This is found within Data > Library > Change Library ID. This defaults on for libraries created within extension mods.
+Data Module
+Added tooltips to many enumerations in Actor Data.
+Bug Fixes
+General
+Marauders can now be properly trained in Heart of the Swarm Terran Training Stages 1 and 2.
+The Reaper is now properly listed as a trainable unit in Terran Training Stage 1.
+Fixed an inconsistency with the order in which players are displayed in Default Observer UI leaderboard tabs.
+Resource amounts on the Units Lost tab now properly update when a unit is killed while morphing.
+Player chat messages no longer persist when scrubbing through a replay.
+The Follow Unit Group replay function now properly follows the selected player’s units, rather than jumping to nearby units.
+Fixed an issue that could cause a drop in performance when many workers are mining from a Vespene Geyser.
+Added Windows 8.1 support for the Traditional Chinese Phonetic IME as well as Chinese IME MSPY 2010.
+Wings of Liberty Campaign
+General
+Seeker Missiles launched by Battlecruisers on the third level of Lost Viking now properly track the Viking.
+Battle.net
+Clarified the requirements for A.I. Romp achievements.
+Fixed an issue that could cause Score Screens to display an incorrect number of units trained.
+Suggesting an offline player to a party no longer causes a crash.
+The length of the Move Sounds dropdown menu under Sounds Options now matches the length of similar dropdowns.
+Gameplay and Races
+General
+Fixed an issue that could cause a revealed player’s cloaked structures to remain invisible, but still attackable, for opponents.
+Weather effects have been removed from Polar Night LE.
+Terran
+Double clicking or Ctrl + Clicking a Hellion or Hellbat now properly selects all Hellions and Hellbats on screen.
+The Transformation Servos upgrade icon is now properly displayed in the Observer UI Production panel while it is being researched.
+The Viking’s Lanzer Torpedos can no longer track units relocated long distances by the Mass Recall ability.
+The tooltip for the Medivac’s Heal ability now properly indicates that 3 life is healed per 1 energy.
+Protoss
+Motherships and Mothership Cores that attack an enemy unit prior to using Mass Recall are no longer revealed on the minimap or through the fog of war.
+The tooltip for the Oracle's Revelation ability now appropriately indicates that neutral units and structures within the casting radius will be granted vision.
+The targeting indicator for the Oracle’s Revelation ability now properly matches its actual casting size.
+Zealots no longer perpetually cycle between Charge and Attack commands when a unit behind unpathable terrain is the target of a Charge command.
+Zerg
+Overseer Cocoons are no longer attributed as Massive units.
+The Viper’s Consume ability tooltip now properly indicates that 2.5 energy is restored per second.
+The Consume debuff icon is no longer removed from a structure’s info panel before all Vipers using Consume have finished channeling the ability.
+Error messages are no longer displayed when a unit that has recently been Mass Recalled is targeted by the Viper’s Abduct ability.
+The Hive’s info panel no longer displays a kill counter.
+Graphics
+Fixed an issue that could cause shaders to fail to generate in some cases.
+Beam attacks no longer briefly reveal the location of a Mothership Core that has completed casting Mass Recall.
+Editor
+General
+Toggling SetFilterPlayers now causes actor models, doodads, and units to disappear and reappear appropriately.
+Archon resource costs are now correctly removed from the MineralsUsedCurrentArmy and VespeneUsedCurrentArmy stats when an Archon is destroyed.
+Corrupt .SC2Interface files placed into the Interfaces folder no longer prevent working files from being displayed in the Observer Interface dropdown list.
+Leaderboard progress bars no longer display erratic color flickering as they become filled.
+Publishing errors no longer occur while attempting to publish a map to multiple regions when custom attributes exist.
+Terrain Module
+Several optimizations have been made for the Fill Texture tool.
+The Render Statistics bar now properly displays data when Show Render Statistics is enabled.
+Trigger Module
+It is now possible to unload a specific unit from a transport using triggers.
+Hit points now scale appropriately when using Set Global Time Scale to speed up the game.
+Real and integer Modify Player Score actions now produce results consistent with desired parameter values.
+Using the UnitSetPosition trigger with the blend parameter set to true no longer breaks missile tracking.
+Disabled action indicator icons now properly update once all parameters are set for the Set Variable action.
+Fixed issues with accessing custom attribute values within mods.
+Data Module
+The search feature for Term Types within the "(Basic) Event: Subject" field of a Query Response-type actor should now work correctly.
+Imported icons that share the same path and name as existing files now behave consistently in the Data Module and in-game.
+Corrected a typo for all Umojan Lab Gate unit variations.
