@@ -7,6 +7,7 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include <memory>
 
 using namespace std;
 
@@ -53,7 +54,7 @@ DWORD WINAPI make_dicts(void* params) //отслеживает папку и рубит её на словарик
 	{
 		
 		fileSearch = FindFirstFile(filenamePattern.c_str(), &fileInfo);
-		if (fileSearch != INVALID_HANDLE_VALUE)
+		while (fileSearch != INVALID_HANDLE_VALUE)
 			//&& WaitForSingleObject(parameters->stopEvent, 0) != WAIT_OBJECT_0)
 			//не работает - ивент выхода активируется с пометкой таймаута, но WaitForMultipleObjects выходит из программы
 		{
@@ -87,12 +88,12 @@ void chop_file(string filename, string inputDir, string outputDir) //Buy for 4.9
 	map<string, int> wordCount;
 	string delims = " ,.\n\r:\\\"()='-/;";
 	int sizeOfBuffer = 255;
-	char* buffer = new char[sizeOfBuffer + 1];
+	unique_ptr<char[]>buffer(new char[sizeOfBuffer + 1]);
 	DWORD bytesRead;
-	char* current = new char[sizeOfBuffer + 1];
+	unique_ptr<char[]> current(new char[sizeOfBuffer + 1]);
 	current[0] = 0;
-	char* next = new char[sizeOfBuffer + 1];
-	ReadFile(inputFile, buffer, sizeOfBuffer, &bytesRead, NULL);
+	unique_ptr<char[]> next(new char[sizeOfBuffer + 1]);
+	ReadFile(inputFile, buffer.get(), sizeOfBuffer, &bytesRead, NULL);
 	buffer[bytesRead] = '\0';
 	bool isTruncated = false;
 	while (bytesRead != 0) //пока есть файл
@@ -101,9 +102,9 @@ void chop_file(string filename, string inputDir, string outputDir) //Buy for 4.9
 		if (bytesRead != 0) //пока остался фрагмент
 		{
 			if (isTruncated)
-				strcat(current, strtok(buffer, delims.c_str()));
+				strcat(current.get(), strtok(buffer.get(), delims.c_str()));
 			else
-				strcpy(current, strtok(buffer, delims.c_str()));
+				strcpy(current.get(), strtok(buffer.get(), delims.c_str()));
 
 			if (strchr(delims.c_str(), buffer[bytesRead - 1]))
 				isTruncated = true;
@@ -112,18 +113,18 @@ void chop_file(string filename, string inputDir, string outputDir) //Buy for 4.9
 
 			char* temp = strtok(NULL, delims.c_str());
 			if (temp != NULL)
-				strcpy(next, temp);
+				strcpy(next.get(), temp);
 			while (temp != NULL)
 			{
-				wordCount[string(current)]++;
-				strcpy(current, next);
+				wordCount[string(current.get())]++;
+				strcpy(current.get(), next.get());
 				temp = strtok(NULL, delims.c_str());
 				if (temp != NULL)
-					strcpy(next, temp);
+					strcpy(next.get(), temp);
 			}
 		}
 
-		ReadFile(inputFile, buffer, sizeOfBuffer, &bytesRead, NULL);
+		ReadFile(inputFile, buffer.get(), sizeOfBuffer, &bytesRead, NULL);
 		buffer[bytesRead] = '\0';
 	}
 
@@ -156,8 +157,8 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout << "Выходная папка:" << endl;
 	cin >> outputDir;
 	cin.ignore();
-	//inputDir = "D:\\test\\in\\";
-	//outputDir = "D:\\test\\out\\";
+	inputDir = "D:\\test\\in\\";
+	outputDir = "D:\\test\\out\\";
 	//////////////////////////////////////
 	add_trailing_slash(inputDir);
 	add_trailing_slash(outputDir);
